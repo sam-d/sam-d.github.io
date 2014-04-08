@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lorem Ipsum
+date: 2010-11-21
 ---
 
 Bacon ipsum dolor sit amet tail biltong beef ribs corned beef. Chicken pancetta
