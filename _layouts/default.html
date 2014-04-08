@@ -1,0 +1,73 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>{{ site.data.pelican.TITLE }}: {{ site.data.pelican.TAGLINE }}</title>
+  <!-- <meta name="description" content="{{ DESCRIPTION }}"> -->
+  <meta name="author" content="{{ site.data.pelican.AUTHOR }}">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="{{ site.url }}/css/reset.css">
+  <link rel="stylesheet" href="{{ site.url }}/css/fontfaces.css">
+  <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Enriqueta:700' rel='stylesheet' type='text/css'>
+  <!-- end CSS-->
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+</head>
+
+<body>
+  <header>
+    <hgroup>
+        <h1> {{ site.data.pelican.TITLE }} </h1>
+        <h2> {{ site.data.pelican.TAGLINE }} </h2>
+    </hgroup>
+  </header>
+
+  <nav class="nav">
+      <ul>
+          <li> <a href="{{ site.url }}/index.html">Home</a> </li>
+          <li> <a href="{{ site.url }}/archives.html">Archiv</a> </li>
+          {% if DISPLAY_PAGES_ON_MENU %}
+              {% for page in site.pages %}
+                  <li><a href="{{ site.url }}/{{ page.url }}">{{ page.title }}</a></li>
+              {% endfor %}
+          {% endif %}
+      </ul>
+  </nav>
+
+  <div class="container text">
+    {{ content }} 
+  </div> <!--! end of #container -->
+
+  <footer>
+    <p>{{ site.data.pelican.LICENCE }}</p>
+    <p><a href="{{site.url}}/impressum.html">Impressum</a> Hosting: <a href="{{HOSTING_LINK}}">{{HOSTING_NAME}}</a></p>
+  </footer>
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+
+</body>
+</html>

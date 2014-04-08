@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<article>
+   <h1 class="post_title">{{- page.title -}}</h1>
+      <time class="pubdate" datetime="{{ page.date }}">
+          Publiziert: {{ page.date | date_to_long_string}}
+      </time>
+     {{ content }}
+</article>
+

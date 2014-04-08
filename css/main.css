@@ -1,0 +1,106 @@
+/* TODO: convert all attributes to css shorthand to save bits */
+body {
+    background-color: white;
+}
+
+.text {
+    text-align: justify; /*left;*/
+    text-justify: newspaper;
+    font-family: OpenSansRegular, sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+
+}
+
+.post_title {
+    text-align: left;
+    text-justify: auto;
+    font-family: Enriqueta, serif;
+    font-size: 1.8em;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+.post_title a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.post_title a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+.container{
+    background-color: white;
+    position: relative;
+    float: left;
+    padding: 10px 50px 90px 50px; 
+    width:  33%;
+    min-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-bottom: solid 1px gray;
+}
+
+header {
+    text-align: left;
+    background-color: white;
+    padding-top: 30px;
+    margin-left: 23%; /*same as .nav */
+}
+
+footer {
+    clear: both;
+    padding-top: 2px;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.pubdate {
+    font-size: 0.7em;
+    font-family: OpenSansLight, sans-serif;
+}
+/* styling the navigation bar */
+.nav {
+    font-family: Enriqueta, serif;
+    clear: left;
+    float: left;
+    position: relative;
+    margin-left: 23%; /*width of .container - height of nav*/
+}
+.nav li {
+    position: relative;
+    list-style: none;
+    border-bottom: dotted 3px black;
+    padding: 1em;
+    background: white;
+}
+.nav ul:first-child {
+    border-top: dotted 3px black;
+}
+.nav a {
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+.nav a:link {
+    color: black;
+}
+
+.nav a:visited {
+    color: black;
+}   
+
+img {
+    border: solid 5px gray;   
+    position: relative;
+    display: block;
+    padding: 10px 10px 10px 10px; 
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,9 +1,14 @@
 ---
+layout: default
 ---
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for article in site.posts %}
+<section>
+  <hgroup>
+    <h1 class="post_title"><a href="{{ article.url }}">{{ article.title }}</a></h1>
+  </hgroup>
+    {{ article.content | markdownify }} 
+  <time class="pubdate" datetime="{{ article.date }}">
+      Publiziert: {{ article.date | date_to_long_string }}
+  </time>
+</section>
+{% endfor %}
