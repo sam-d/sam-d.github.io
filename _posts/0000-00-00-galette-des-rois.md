@@ -1,8 +1,9 @@
 ---
+layout: post
 title: Galette des rois
 date: 2012-01-06
 tags: rezepte
-layout: post
+permalink: /2012/01/06/de/galette-des-rois/
 ---
 
 franz. Spezialität, Rezept für 6 Personen:
