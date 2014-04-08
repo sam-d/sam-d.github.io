@@ -2,6 +2,7 @@
 layout: post
 title: Lorem Ipsum
 date: 2010-11-21
+permalink: http://sam-d.com/blog/2012/10/25/de/agendav-ein-eigener-kalender-online-ohne-eigenen-server/
 ---
 
 Bacon ipsum dolor sit amet tail biltong beef ribs corned beef. Chicken pancetta
