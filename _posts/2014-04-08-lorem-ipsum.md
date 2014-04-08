@@ -1,4 +1,5 @@
 ---
+layout: post
 ---
 
 Bacon ipsum dolor sit amet tail biltong beef ribs corned beef. Chicken pancetta
