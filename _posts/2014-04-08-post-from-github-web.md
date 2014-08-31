@@ -1,6 +1,7 @@
 ---
 layout: post
 title: test post
+date: 2014-04-08
 ---
 fasdf
 asdfas
