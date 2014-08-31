@@ -1,4 +1,6 @@
 timezone: Europe/Berlin
 encoding: utf-8
 
+markdown: kramdown
+
 url: http://sam-d.github.io
