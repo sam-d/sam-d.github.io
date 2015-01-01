@@ -3,7 +3,7 @@ title:       Blog
 email:       contact@sam-d.com
 author:      Sebastian
 description: "thoughts and scribbles"
-baseurl:     "https://sam-d.github.io/"
+baseurl:     "https://sam-d.github.io"
 url:         "http://sam-d.com/blog/"
 
 # Google analytics

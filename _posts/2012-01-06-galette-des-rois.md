@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Galette des rois
+summary: Das Rezept für den Königskuchen
 date: 2012-01-06 11:30:00
 tags: rezepte
 permalink: /2012/01/06/de/galette-des-rois/
