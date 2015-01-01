@@ -4,7 +4,7 @@ layout: default
 
 {% assign minutes = content | number_of_words | divided_by: 180 %}
 {% if minutes == 0 %}
-{% assign minutes = 1 %}
+{% assign minutes = 2 %}
 {% endif %}
 
 <div class="post-header mb2">
@@ -50,8 +50,7 @@ layout: default
     {{ page.update_date | date: "%Y" }}
     </span><br>
   {% endif %}
-  <span class="post-meta small">{{ minutes }} minute read</span>
-</div>
+  <span class="post-meta small">{{ minutes }} Minuten Lesezeit</span> </div>
 
 <article class="post-content">
   {{ content }}
