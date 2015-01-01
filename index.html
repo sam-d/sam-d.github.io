@@ -11,7 +11,7 @@ layout: default
           <p class="post-meta">
             <!-- Whitespace added for readability. source: http://alanwsmith.com/jekyll-liquid-date-formatting-examples -->
             {% assign m = post.date | date: "%-m" %}
-            {{ post.date | date: "%-d" }}
+            {{ post.date | date: "%-d." }}
             {% case m %}
               {% when '1' %}Januar
               {% when '2' %}Februar
