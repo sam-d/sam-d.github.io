@@ -28,7 +28,13 @@ layout: default
             {% endcase %}
             {{ post.date | date: "%Y" }}
           <h3 class="h2 post-title">{{ post.title }}</h3>
-          <p class="post-summary">{{ post.summary }}</p>
+          <p class="post-summary">
+            {% if post.summary %}
+                {{ post.summary }}
+            {% else %}
+                {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+            {% endif %}
+          </p>
         </a>
       </div>
     {% endfor %}
