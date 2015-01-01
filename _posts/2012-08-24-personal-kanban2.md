@@ -1,7 +1,7 @@
 ---
 title: Personal Kanban Teil 2
 summary: Meine Erfahrungen mit Personal Kaban und warum ich wieder damit
-aufgehört habe
+    aufgehört habe
 date: 2012-08-24
 permalink: /2012/08/24/de/personal-kanban-teil-2/
 ---
