@@ -1,14 +1,20 @@
 ---
 layout: default
 ---
-{% for article in site.posts %}
-<section>
-  <hgroup>
-    <h1 class="post_title"><a href="{{ article.url }}">{{ article.title }}</a></h1>
-  </hgroup>
-    {{ article.content | markdownify }} 
-  <time class="pubdate" datetime="{{ article.date }}">
-      Publiziert: {{ article.date | date_to_long_string }}
-  </time>
-</section>
-{% endfor %}
+
+<div class="home">
+
+  <div class="posts">
+    {% for post in paginator.posts %}
+      <div class="post">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <h3 class="h2 post-title">{{ post.title }}</h3>
+          <p class="post-summary">{{ post.summary }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% include pagination.html %}
+</div>
