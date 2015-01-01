@@ -3,7 +3,7 @@ title: Mein erstes Bento
 summary: Mein erster Versuch ein japanisches Bento zu machen
 date: 2012-05-06
 tags: rezepte
-permalink: 2012/05/06/de/mein-erstes-bento/
+permalink: /2012/05/06/de/mein-erstes-bento/
 ---
 Da mir das Essen in der Kantine zu teuer ist (und nicht immer schmeckt) habe ich
 mir vorgenommen mein Mittagessen selber mitzubringen. Vor einiger Zeit bin ich

@@ -3,7 +3,7 @@ title: Deutscher Schlaumeier/ SmartyPants auf deutsch
 summary: Ich habe ein Python Paket auf deutsche Typographie umgestellt
 date: 2012-02-11
 tags: code
-permalink: 2012/02/11/de/deutscher-schlaumeier-smartypants-auf-deutsch/
+permalink: /2012/02/11/de/deutscher-schlaumeier-smartypants-auf-deutsch/
 ---
 
 Um diesen Blog zu schreiben benutze ich ein Markdown Plugin sowie das

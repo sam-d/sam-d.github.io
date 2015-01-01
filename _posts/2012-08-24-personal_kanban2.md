@@ -3,7 +3,7 @@ title: Personal Kanban Teil 2
 summary: Meine Erfahrungen mit Personal Kaban und warum ich wieder damit
 aufgehört habe
 date: 2012-08-24
-permalink: 2012/08/24/de/personal-kanban-teil-2/
+permalink: /2012/08/24/de/personal-kanban-teil-2/
 ---
 Ich habe mein
 [Kanbanbrett](http://sam-d.com/blog/2012/06/24/de/personal-kanban/) mitlerweile wieder abgehangen. Obwohl das Konzept

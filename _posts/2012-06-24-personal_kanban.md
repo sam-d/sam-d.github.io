@@ -2,7 +2,7 @@
 title: Personal Kanban
 summary: Personal Kanban zur Produktivitätssteigerung
 date: 2012-06-24
-permalink: 2012/06/24/de/personal-kanban/
+permalink: /2012/06/24/de/personal-kanban/
 ---
 Kanban ist eine Technik die bei Motorola von einem der Ingenieure entwickelt
 worden ist. Kanban ist japanisch und bedeutet "Brett". Durch eine geschickte
